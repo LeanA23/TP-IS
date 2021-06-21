@@ -1,6 +1,14 @@
+#Integracion Continua
 language: node_js
 node_js: 14.17.1
 git: 
   depth: 3
 script:
   - yarn test
+notifications: 
+  email:
+    recipients:
+      - reloco23@gmail.com
+    on_success: always
+    on_failure: always
+#Despliegue Continuo
