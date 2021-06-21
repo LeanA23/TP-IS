@@ -12,3 +12,11 @@ notifications:
     on_success: always
     on_failure: always
 #Despliegue Continuo
+deploy:
+  provide: heroku
+  skip-cleanup: true
+  keep-history: true
+  api_key: 7adff61d-fb85-4ac3-8775-52a1bcbbbc04
+  app: tp-is
+  on:
+    repo: LeanA23/TP-IS
