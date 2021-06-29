@@ -4,7 +4,7 @@
   "description": "Calculadora basica para operaciones simples de suma y resta",
   "main": "index.js",
   "scripts": {
-    "test": "mocha || exit 0"
+    "test": "mocha ./src/test || exit 0"
   },
   "repository": {
     "type": "git",
