@@ -16,11 +16,8 @@ script:
   - sonar-scanner
 
 notifications: 
-  email:
-    recipients:
-      - reloco23@gmail.com
-    on_success: always
-    on_failure: always
+  slack: isutn2021:2w5NbVWR4c1qrqQ31AJI6G82
+
 #Despliegue Continuo
 deploy:
   provide: heroku
