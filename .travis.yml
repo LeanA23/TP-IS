@@ -3,13 +3,16 @@ language: node_js
 node_js: 14.17.1
 git: 
   depth: 3
+
 addons:
   sonarcloud: 
-    organization: 'lean23'
-    token: "c2e1325e06b6183d98497ca191458717ad2b45c7"
+    organization: lean23
+    token: c2e1325e06b6183d98497ca191458717ad2b45c7
+
 script:
   - yarn test
   - sonar-scanner
+
 notifications: 
   email:
     recipients:
