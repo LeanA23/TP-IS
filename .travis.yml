@@ -7,7 +7,7 @@ git:
 addons:
   sonarcloud: 
     organization: lean23
-    token: c2e1325e06b6183d98497ca191458717ad2b45c7
+    token: 874845056fde0f16d684cb4283fe123b0c9b0835
 
 script:
   - yarn test
