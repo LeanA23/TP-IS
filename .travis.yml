@@ -5,7 +5,7 @@ git:
   depth: 3
 addons:
   sonarcloud: 
-    organization: 'leanA23'
+    organization: 'lean23'
     token: "c2e1325e06b6183d98497ca191458717ad2b45c7"
 script:
   - yarn test
