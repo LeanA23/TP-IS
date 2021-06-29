@@ -3,7 +3,9 @@ language: node_js
 node_js: 14.17.1
 git: 
   depth: 3
-
+branches:
+  only: 
+  - main
 addons:
   sonarcloud: 
     organization: "lean23"
@@ -28,3 +30,4 @@ deploy:
   app: tp-is
   on:
     repo: LeanA23/TP-IS
+    branch: main
