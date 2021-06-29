@@ -2,7 +2,7 @@
 
 var calcu = require('./aplicacion/calculadora');
 
-var a=8;
+var a=4;
 var b=2;
 
 console.log(`Suma ${a}+${b} = ${calcu.suma(a,b)}`);
