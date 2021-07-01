@@ -8,7 +8,7 @@ describe("Calculadora - Test", function() {
     describe("Testing the Operations", function() {
 
         it("Testing the suma operation", function() {
-            expect(calculator.suma(1,1)).to.equal(1+1);
+            expect(calculator.suma(1,2)).to.equal(1+1);
         });
 
         it("Testing the resta operation", function() {
