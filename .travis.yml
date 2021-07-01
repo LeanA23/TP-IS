@@ -16,7 +16,7 @@ script:
   - sonar-scanner
 
 notifications: 
-  slack: isutn2021:2w5NbVWR4c1qrqQ31AJI6G82
+  slack: tercerparcialis:KDCqKkat0DypPDPRUZfGMlRK
 
 #Despliegue Continuo
 deploy:
